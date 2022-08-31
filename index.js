@@ -15,6 +15,6 @@ function save() {
 }
 
 function clear() {
-    document.getElementById("save-el").textContent='Previous entries: '
+    saveEl.textContent ='Previous entries: '
 }
 
