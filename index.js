@@ -13,8 +13,9 @@ function save() {
     saveEl.textContent += countStr
     countEl.textContent = 0
     count = 0
+    console.log('SSSSSSSSSSSSSS')
 }
 
-function clear() {
-    console.log('SSSSSSSSSSSSSS')}
-
+function clear_count() {
+    saveEl.textContent ='Previous entries:'
+}
