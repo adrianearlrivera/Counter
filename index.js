@@ -1,3 +1,4 @@
+
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
@@ -15,6 +16,5 @@ function save() {
 }
 
 function clear() {
-    saveEl.textContent ='Previous entries: '
-}
+    console.log('SSSSSSSSSSSSSS')}
 
